@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Permissions"
+                OnQuickLaunch="TRUE"
+                TemplateType="10003"
+                FeatureId="d88694fe-fa0e-4186-b2e9-2655e90c9153"
+                Url="Lists/Permissions"
+                Description="My List Instance">
+
+    <!-- Add this -->
+
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="ID">1</Field>
+          <Field Name="PermissionCode">PM1</Field>
+          <Field Name="PermissionName">Acess restricted page</Field>
+          <Field Name="Description">Required permission to access restricted page</Field>
+          <Field Name="GroupSP">0;#Example - restricted page</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">2</Field>
+          <Field Name="PermissionCode">PM2</Field>
+          <Field Name="PermissionName">Example permission 2</Field>
+          <Field Name="Description">Example permission 2 description</Field>
+          <Field Name="GroupSP">0;#Example - Example permission 2</Field>
+        </Row>
+      </Rows>
+    </Data>
+
+    <!-- End add -->
+
+  </ListInstance>
+</Elements>

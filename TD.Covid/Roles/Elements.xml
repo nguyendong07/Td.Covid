@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Roles"
+      OnQuickLaunch="TRUE"
+      TemplateType="10002"
+      FeatureId="d88694fe-fa0e-4186-b2e9-2655e90c9153"
+      Url="Lists/Roles"
+      Description="My List Instance">
+
+    <!-- Add this -->
+
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="ID">1</Field>
+          <Field Name="RoleCode">R1</Field>
+          <Field Name="RoleName">Role 1</Field>
+          <Field Name="Description">Example role 1</Field>
+          <Field Name="Permissions">1;#Acess page 1;#2Example permission 2</Field>
+        </Row>
+      </Rows>
+    </Data>
+
+    <!-- End add -->
+
+  </ListInstance>
+</Elements>

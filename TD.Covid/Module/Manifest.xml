@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <ID>Covid Vn</ID>
+  <Title>App Covid VN</Title>
+  <Description>TDCore App Covid</Description>
+  <Files>
+    <File Url="SitePages/Default.aspx" IsDefaultPage="true"></File>
+    <File Url="SitePages/RestrictedPage.aspx">
+      <Permission Code="PM1" Type="Reader"></Permission>
+    </File>
+  </Files>
+</Module>

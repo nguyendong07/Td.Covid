@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="9f8807df-f76f-484e-bad9-07a5adf56e5d" solutionId="9f8807df-f76f-484e-bad9-07a5adf56e5d" resetWebServer="true" sharePointProductVersion="15.0" name="TD.Covid" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="b43fded2-a49b-49a3-9ccf-d79d416ec119" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="d5c57b8d-b953-4423-aca0-bc37c7ce7da5" />
+  </projectItems>
+</package>

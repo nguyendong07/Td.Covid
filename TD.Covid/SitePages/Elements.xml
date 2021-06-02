@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="SitePages" Url="SitePages">
+    <File Path="SitePages\Default.aspx"
+          Url="Default.aspx"
+          ReplaceContent="true"/>
+    <File Path="SitePages\RestrictedPage.aspx"
+          Url="RestrictedPage.aspx"
+          Type="GhostableInLibrary"
+          ReplaceContent="true"/>
+    <File Path="SitePages\NormalPage.aspx"
+          Url="NormalPage.aspx"
+          ReplaceContent="true"/>
+  </Module>
+</Elements>
